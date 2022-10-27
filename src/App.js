@@ -17,13 +17,27 @@ function App() {
       </header>
       <section>
         <div className='w-full'>
-          <button className='bg-blue-400 p-5 w-full'>Twitter Link</button>
-          <button className='bg-blue-400 p-5 w-full'>Zuri Team</button>
-          <button className='bg-blue-400 p-5 w-full'>Zuri Books</button>
-          <button className='bg-blue-400 p-5 w-full'>Python books</button>
-          <button className='bg-blue-400 p-5 w-full'>Background Checks for Coders</button>
-          <button className='bg-blue-400 p-5 w-full'>Design Books</button>
+          <div className='py-2'>
+            <button className='bg-blue-400 p-5 w-full'>Twitter Link</button>
+          </div>
+          <div className='py-2'>
+            <button className='bg-blue-400 p-5 w-full'>Zuri Team</button>
+          </div>
+          <div className='py-2'>
+            <button className='bg-blue-400 p-5 w-full'>Zuri Books</button>
+          </div>
+          <div className='py-2'>
+            <button className='bg-blue-400 p-5 w-full'>Python books</button>
+          </div>
+          <div className='py-2'>
+            <button className='bg-blue-400 p-5 w-full'>Background Checks for Coders</button>
+          </div>  
+          <div className='py-2'>
+            <button className='bg-blue-400 p-5 w-full'>Design Books</button>
+          </div>
+          
         </div>
+        <div></div>
 
       </section>
     </div>
