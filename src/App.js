@@ -22,26 +22,30 @@ function App() {
           </div>
 
             <div className=''>
-              <img src={profile_picture} className='' />
-              <p className='my-5 font-bold'>_fineneighbour</p>
+              <img src={profile_picture} className='' id='profile_img' />
+              <p className='my-5 font-bold' id='twitter'>_fineneighbour</p>
+            </div>
+
+            <div className='hidden' id='slack'>
+              <p>Jibola79</p>
             </div>
           </div>
       </header>
 
-      <section>
-        <div className='w-full flex flex-col font-semibold'>
+      <section className=''>
+        <div className='w-[95%] md:w-[75%] flex flex-col font-semibold items-center mx-auto'>
 
-          <a className='bg-gray-200 p-5 my-2' href='https://twitter.com/_fineneighbour?t=lxz_U6iSbbzL9DS2ELrvrA&s=09'>Twitter Link</a>
+          <a className='bg-gray-200 p-4 my-2 w-full hover:bg-[#D0D5DD] transition-colors duration-300 ease-in-out rounded' href='https://twitter.com/_fineneighbour?t=lxz_U6iSbbzL9DS2ELrvrA&s=09' >Twitter Link</a>
 
-          <a className='bg-gray-200 p-5 my-2' id='btn_zuri' href='https:training.zuri.team/'>Zuri Team</a>
+          <a className='bg-gray-200 p-4 my-2 w-full hover:bg-[#D0D5DD] transition-colors duration-300 ease-in-out rounded' id='btn_zuri' href='https:training.zuri.team/'>Zuri Team</a>
 
-          <a className='bg-gray-200 p-5 my-2' id='books' href='http://books.zuri.team'>Zuri Books</a>
+          <a className='bg-gray-200 p-4 my-2 w-full hover:bg-[#D0D5DD] transition-colors duration-300 ease-in-out rounded' id='books' href='http://books.zuri.team'>Zuri Books</a>
 
-          <a className='bg-gray-200 p-5 my-2' id='books_python' href='https://books.zuri.team/python-for-beginners?ref_id=<jibola>,'>Python books</a>
+          <a className='bg-gray-200 p-4 my-2 w-full hover:bg-[#D0D5DD] transition-colors duration-300 ease-in-out rounded' id='books_python' href='https://books.zuri.team/python-for-beginners?ref_id=<jibola>,'>Python books</a>
 
-          <a className='bg-gray-200 p-5 my-2' id='pitch' href='https://background.zuri.team'>Backgroung Check for Coders</a>
+          <a className='bg-gray-200 p-4 my-2 w-full hover:bg-[#D0D5DD] transition-colors duration-300 ease-in-out rounded' id='pitch' href='https://background.zuri.team'>Backgroung Check for Coders</a>
 
-          <a className='bg-gray-200 p-5 my-2' id='book_design' href='https://books.zuri.team/design-rules'>Design Books</a>
+          <a className='bg-gray-200 p-4 my-2 w-full hover:bg-[#D0D5DD] transition-colors duration-300 ease-in-out rounded' id='book_design' href='https://books.zuri.team/design-rules'>Design Books</a>
         </div>
         <div className='flex justify-center p-6 mb-11 gap-5'>
           <img src={slack} className='' />
