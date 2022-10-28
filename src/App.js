@@ -2,6 +2,8 @@
 import './App.css';
 import profile_picture from './assets/images/profile_picture.png'
 import share from './assets/icons/share.png'
+import slack from './assets/icons/slack.svg'
+import github from './assets/icons/github.svg'
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
           </div>
         </div>
       </header>
+
       <section>
         <div className='w-full'>
           <div className='py-2'>
@@ -35,11 +38,16 @@ function App() {
           <div className='py-2'>
             <button className='bg-blue-400 p-5 w-full'>Design Books</button>
           </div>
-          
         </div>
-        <div></div>
-
+        <div className='flex justify-center p-6 gap-5'>
+          <img src={slack} className='' />
+          <img src={github} className='' />
+        </div>
       </section>
+
+      <footer>
+        j fj
+      </footer>
     </div>
   );
 }
