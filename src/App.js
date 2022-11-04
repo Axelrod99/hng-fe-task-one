@@ -7,6 +7,7 @@ import github from './assets/icons/github.svg'
 import ingressive from './assets/icons/ingressive.svg'
 import zuri_logo from './assets/icons/zuri_logo.svg'
 import share_button from './assets/icons/share_button.svg'
+import { Link } from 'react-router-dom'
 
 
 function App() {
@@ -46,6 +47,9 @@ function App() {
           <a className='bg-gray-200 p-4 my-2 w-full hover:bg-[#D0D5DD] transition-colors duration-300 ease-in-out rounded' id='pitch' href='https://background.zuri.team'>Backgroung Check for Coders</a>
 
           <a className='bg-gray-200 p-4 my-2 w-full hover:bg-[#D0D5DD] transition-colors duration-300 ease-in-out rounded' id='book_design' href='https://books.zuri.team/design-rules'>Design Books</a>
+
+          <Link to='/contact' className='bg-gray-200 p-4 my-2 w-full hover:bg-[#D0D5DD] transition-colors duration-300 ease-in-out rounded' id='contact'>contact</Link>
+
         </div>
         <div className='flex justify-center p-6 mb-11 gap-5'>
           <img src={slack} className='' />
