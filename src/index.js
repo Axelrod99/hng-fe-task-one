@@ -12,7 +12,6 @@ ReactDOM.render(
   <Router>
     <Routes>
       <Route path='/' element={<App/>}/>
-      {/* <Route path='/contact' element={<contact/>}/> */}
       <Route path='/Contact' element={<Contact/>}/>
     </Routes>
   </Router>,
