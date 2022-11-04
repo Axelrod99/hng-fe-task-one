@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom'
 import './App.css';
 import profile_picture from './assets/images/profile_picture.png'
 import share from './assets/icons/share.png'
@@ -7,7 +7,7 @@ import github from './assets/icons/github.svg'
 import ingressive from './assets/icons/ingressive.svg'
 import zuri_logo from './assets/icons/zuri_logo.svg'
 import share_button from './assets/icons/share_button.svg'
-import { Link } from 'react-router-dom'
+
 
 
 function App() {

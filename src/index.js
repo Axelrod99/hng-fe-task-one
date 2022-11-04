@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import contact from './component/contact';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Contact from './component/Contact'
+
 
 
 
@@ -11,7 +12,8 @@ ReactDOM.render(
   <Router>
     <Routes>
       <Route path='/' element={<App/>}/>
-      <Route path='/contact' element={<contact/>}/>
+      {/* <Route path='/contact' element={<contact/>}/> */}
+      <Route path='/Contact' element={<Contact/>}/>
     </Routes>
   </Router>,
 
