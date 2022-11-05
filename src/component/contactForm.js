@@ -7,7 +7,7 @@ import { ReactComponent as Tick } from '../assets/icons/tick.svg'
 
 
 
-const Contact = () => {
+const ContactForm = () => {
     const [checked, setChecked] = useState(false);
     const [disabled, setDisabled] = useState(true);
 
@@ -80,4 +80,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default ContactForm
