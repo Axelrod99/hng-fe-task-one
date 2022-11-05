@@ -14,31 +14,32 @@ const contact = () => {
             <div className='sm:flex w-full gap-4 my-3'>
                 <div className='flex flex-col w-full gap-2'>
                     <p className='text-xs'>First name</p>
-                    <input className='rounded-sm h-8' placeholder='Enter your first name'></input>
+                    <input className='border-2 rounded-sm h-8' placeholder='Enter your first name'></input>
                 </div>
 
                 <div className='flex flex-col w-full gap-2'>
                     <p className='text-xs'>Last name</p>
-                    <input className='rounded-sm h-8' placeholder='Enter your last name'></input>
+                    <input className='border-2 rounded-sm h-8' placeholder='Enter your last name'></input>
                 </div>
             </div>
 
             <div className='flex flex-col w-full gap-2 my-3'>
                 <p className='text-xs'>Email</p>
-                <input className='rounded-sm h-8' placeholder='yourname@email.com'></input>
+                <input className='border-2 rounded-sm h-8' placeholder='yourname@email.com'></input>
             </div>
 
             <div className='flex flex-col w-full my-3'>
                 <p>Message</p>
-                <input className='' placeholder="send me a message and i'll reply you as soon as possible..."></input>
+                <textarea className='border-2' placeholder="send me a message and i'll reply you as soon as possible..."></textarea>
             </div>
 
-            <div className='my-3'>
-                <p>You agree to providing your .</p>
+            <div className='my-3 flex gap-3 self-start'>
+                <div className='border-2 h-5 w-5'></div>
+                <p className=''>You agree to providing your data to  who may contact you. .</p>
             </div>
 
             <div className='w-full'>
-                <button className='w-full rounded-md bg-blue-400'>Send message</button>
+                <button className='w-full rounded-md bg-blue-400 h-8 text-white'>Send message</button>
             </div>
         
         </div>
