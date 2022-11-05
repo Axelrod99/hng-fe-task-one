@@ -13,11 +13,7 @@ const Contact = () => {
 
     function btnchange(event) {
         setChecked(event.target.checked);
-
-
-        setDisabled(event.target.checked ? false : true)
-
-
+        setDisabled(event.target.checked ? false : true);
     }
 
     return (
