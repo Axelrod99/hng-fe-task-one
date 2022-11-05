@@ -13,7 +13,7 @@ const Contact = () => {
 
     function btnchange(event) {
         setChecked(event.target.checked);
-        
+
 
         setDisabled(event.target.checked ? false : true)
 
@@ -61,7 +61,7 @@ const Contact = () => {
                                     name='sendNewSms'
                                     onChange={btnchange}
                                 />
-                                {checked && <Tick className='absolute bottom-2 pl-1'/>}
+                                {checked && <Tick className='absolute bottom-2 pl-1' />}
                             </div>
                             <label class="form-check-label inline-block text-gray-800" for="flexCheckDefault">
                                 You agree to providing your data to thee who may contact you.

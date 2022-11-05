@@ -14,7 +14,7 @@ ReactDOM.render(
       <Route path='/' element={<App/>}/>
       <Route path='/Contact' element={<Contact/>}/>
     </Routes>
-    
+
   </Router>,
 
   document.getElementById('root')
