@@ -48,7 +48,7 @@ function App() {
 
           <a className='bg-gray-200 p-4 my-2 w-full hover:bg-[#D0D5DD] transition-colors duration-300 ease-in-out rounded' id='book_design' href='https://books.zuri.team/design-rules'>Design Books</a>
 
-          <Link to='/contact' className='bg-gray-200 p-4 my-2 w-full hover:bg-[#D0D5DD] transition-colors duration-300 ease-in-out rounded' id='contact'>contact</Link>
+          <Link to='/contact' className='bg-gray-200 p-4 my-2 w-full hover:bg-[#D0D5DD] transition-colors duration-300 ease-in-out rounded' id='contact'>Contact</Link>
 
         </div>
         <div className='flex justify-center p-6 mb-11 gap-5'>
